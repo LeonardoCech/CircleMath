@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+canvas {
+    width: 600px;
+    height: 600px;
+    left: 50%;
+    margin-left: -300px;
+    border: 1px solid;
+}
+#canvas1 {
+    position: relative;
+}
+#canvas2 {
+    position: absolute;
+    background: transparent;
+}
+
+#controles {
+    width: 280px;
+    height: 100px;
+    margin: auto;
+}
+#controles div {
+    width: 120px;
+    height: 70px;
+    float: left;
+}
+#controles div h4 {
+    text-align: center;
+    height: 0;
+}
+#controles div p {
+    background: lightgray;
+    color: gray;
+    width: 50px;
+    line-height: 22px;
+    text-align: center;
+    margin: auto;
+    float: left;
+}
+#controles #voltas {
+    float: right;
+}
+#controles div button { 
+    width: 35px;
+    float: left;
+}
